@@ -1,4 +1,5 @@
 # Wikipedia Search Engine
+This projects implements a query processing system for wikipedia page retrieval which will include both hindi and english pages and query can also be in english and hindi both languages. User can search for any information by passing query in form of keywords or phrase. It then searches for relevant information in its database and return to the user.The query can be fired in terms of fields or just as simple query. For simple query the keywords were matched based on all the fields of the pages.
 ## File Structure:
 `english_indexer.py` : Used for creating indexes for the english language dataset<br>
 `hindi_indexer.py` : Used to create indexes for hindi language dataset <br>
